@@ -1,0 +1,18 @@
+## IDF Component Manager Manifest File
+##
+## This file defines dependencies for the main component.
+## Dependencies are automatically downloaded during the CMake configuration step.
+##
+## To add dependencies, use: idf.py add-dependency "namespace/name==version"
+## Browse available components at: https://components.espressif.com/
+
+dependencies:
+  # Zigbee dependencies will be added here when needed
+  # Example:
+  # espressif/esp-zigbee-lib: "^1.0.0"
+
+  # LED control dependencies
+  # espressif/led_strip: "^2.0.0"
+
+  # Other dependencies as needed
+  # espressif/button: "^3.0.0"
