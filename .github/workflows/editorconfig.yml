@@ -1,0 +1,11 @@
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  editorconfig-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: editorconfig-checker/action-editorconfig-checker@main
+      - run: editorconfig-checker
