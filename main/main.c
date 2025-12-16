@@ -13,12 +13,12 @@ static const char *TAG = "zigrid";
 
 void app_main(void)
 {
-    ESP_LOGI(TAG, "Zigrid firmware starting...");
-    ESP_LOGI(TAG, "ESP32-C6 Zigbee-based button grid");
+  ESP_LOGI(TAG, "Zigrid firmware starting...");
+  ESP_LOGI(TAG, "ESP32-C6 Zigbee-based button grid");
 
-    // Main application loop will be implemented here
-    while (1) {
-        ESP_LOGI(TAG, "Zigrid running");
-        vTaskDelay(pdMS_TO_TICKS(5000));
-    }
+  // Main application loop will be implemented here
+  while (1) {
+    ESP_LOGI(TAG, "Zigrid running");
+    vTaskDelay(pdMS_TO_TICKS(5000));
+  }
 }
